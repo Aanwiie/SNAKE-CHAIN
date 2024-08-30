@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",  // Changed to react-jsx for React 17+
+    "noEmit": false      // Set to false to allow output file generation
+  },
+  "include": [
+    "src"
+, "src/index.tsx", "src/Navbar"  ],
+  "exclude": [
+    "node_modules", // Exclude node_modules
+    "build"         // Exclude build directory if present
+  ]
+}
