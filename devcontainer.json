@@ -1,0 +1,15 @@
+{
+  "name": "React Snake Game",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "forwardPorts": [
+    3000
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib"
+      }
+    }
+  },
+  "postCreateCommand": "yarn"
+}
