@@ -37,6 +37,19 @@ yarn run start
 </img>
 
 
+Open Using Daytona
+Install Daytona: Follow the Daytona installation guide.
+Create the Workspace:
+daytona create <SAMPLE_REPO_URL> 
+... MORE STEPS IF NEEDED ...
+
+Start the Application:
+command to start the app
+✨ Features
+List of sample features (e.g. realtime chat app, standardized development environment with devcontainers)
+
+
+
 ## 🙋‍♂️ Support
 #### 💙 If you like this project, give it a ⭐ and share it with friends!
 
